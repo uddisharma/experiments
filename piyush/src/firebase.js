@@ -2,14 +2,7 @@
 // import { getMessaging } from "firebase/messaging";
 import { initializeApp } from "firebase/app";
 import { getMessaging, onMessage } from "firebase/messaging";
- const firebaseConfig = {
-    apiKey: "AIzaSyBzzCQYRjvEg0h2lyuDHzNE4WniAdRi0_0",
-    authDomain: "push-notificaion-bcd52.firebaseapp.com",
-    projectId: "push-notificaion-bcd52",
-    storageBucket: "push-notificaion-bcd52.appspot.com",
-    messagingSenderId: "501081669935",
-    appId: "1:501081669935:web:d3a2d779c3d65764c3a1da",
-    measurementId: "G-VPH3EFEWL6"
+ const firebaseConfig : {
 };
 
 // export const app = initializeApp(firebaseConfig);
