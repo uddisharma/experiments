@@ -11,7 +11,7 @@
 //       // Generate Token
 //       const token = await getToken(messaging, {
 //         vapidKey:
-//           "BKwXIsqltkgshCJYrApiQSuvC0I_tRLMpL8ufVSH49c2IKuAQvVhnWo-1RGht4zfuj_owkVdbxgXUTD4xV0j_-M",
+//           "BKwXIsqltkgshCJYr0I_tRLMpL8ufVSH49c2IKuAQvVhnWo-1RGht4zfuj_owkVdbxgXUTD4xV0j_-M",
 //       });
 //       console.log("Token Gen", token);
 //       // Send this token  to server ( db)
@@ -65,8 +65,8 @@ function App() {
       try {
         const token = await getToken(messaging, {
           vapidKey:
-            "BKwXIsqltkgshCJYrApiQSuvC0I_tRLMpL8ufVSH49c2IKuAQvVhnWo-1RGht4zfuj_owkVdbxgXUTD4xV0j_-M",
-        });
+            "BKwXIsYrApiQSuvC0I_tRLMpL8ufVSH49c2IKuAQvVhnWo-1RGht4zfuj_owkVdbxgXUTD4xV0j_-M",
+        })
         console.log("Token Generated:", token);
         // Send this token to server (db)
       } catch (error) {
