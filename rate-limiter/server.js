@@ -2,8 +2,6 @@ const express = require("express")
 const rateLimit = require("express-rate-limit");
 const path = require("path")
 let logger = require("morgan");
-
-
 const app = express()
 
 const limiter = rateLimit({
@@ -11,9 +9,10 @@ const limiter = rateLimit({
     max: 100,
     standardHeaders: "draft-7",
     legacyHeaders: false,
+    message: "Too many requests from this IP, please try again after 2 minutes."
 });
 
-// app.use(limiter);
+app.use(limiter);
 
 app.use(express.json());
 app.use(logger("dev"));
