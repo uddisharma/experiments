@@ -1,0 +1,30 @@
+{
+  "name": "thribute-store",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "storage",
+    "s3",
+    "gcp",
+    "local storage"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.11.2",
+    "aws-sdk": "^2.1646.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "joi": "^17.13.3",
+    "zlib": "^1.0.5"
+  }
+}
