@@ -1,1 +1,1 @@
-Daily New Experiments with tech
+Daily New Experiments with new technologies
