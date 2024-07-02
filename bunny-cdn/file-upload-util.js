@@ -11,7 +11,7 @@ export const handleFileUpload = async (file) => {
     fileStream,
     {
       headers: {
-        AccessKey: "3f1864e3-abbd-4657-86fbe9081e47-4042-4dc1",
+        AccessKey: "password",
       },
     }
   )
